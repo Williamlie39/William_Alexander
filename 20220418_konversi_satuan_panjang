@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float cm, km, m, hm, dam, meter, mm,dm,a,b,c,d,e,f;
+    cout<<"konversi";
+    cout<<endl;
+    cout<<"masukkan angka cm:";
+    cin>>a;
+    km=a/100000;
+    hm=a/10000;
+    dam=a/1000;
+    meter=a/100;
+    dm=a/10;
+    mm=a*10;
+    
+    cout<<endl<<endl;
+    cout<<"km :"<<km<<endl;
+    cout<<"hm :"<<hm<<endl;
+    cout<<"dam :"<<dam<<endl;
+    cout<<"m :"<<m<<endl;
+    cout<<"dm :"<<dm<<endl;
+    cout<<"cm :"<<a<<endl;
+    cout<<"mm :"<<mm<<endl;
+    
+}
